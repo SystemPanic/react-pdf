@@ -1,6 +1,6 @@
 {
   "name": "react-pdf",
-  "version": "5.0.0-beta.4",
+  "version": "5.0.0",
   "description": "Display PDFs in your React app as easily as if they were images.",
   "main": "dist/umd/entry.js",
   "module": "dist/esm/entry.js",
@@ -16,8 +16,7 @@
     "jest-coverage": "jest --coverage",
     "lint": "eslint sample/ src/ test/ --ext .jsx,.js",
     "prepublishOnly": "yarn clean && yarn build",
-    "test": "yarn lint && yarn jest",
-    "postinstall": "yarn build-js-all && yarn copy-styles"
+    "test": "yarn lint && yarn jest"
   },
   "jest": {
     "setupFiles": [
